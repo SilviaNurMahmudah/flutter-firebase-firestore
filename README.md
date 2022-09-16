@@ -1,16 +1,35 @@
 # flutter_firebase_firestore
 
-A new Flutter project.
+SILVIA NUR MAHMUDAH
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Mendapatkan kode sampel
+![Screenshot flutter_firebase_firestore](images/01.png)
 
-A few resources to get you started if this is your first Flutter project:
+### Menambahkan login pengguna (RSVP)
+Berikut adalah awal dari alur otentikasi, di mana pengguna dapat menekan tombol RSVP, untuk memulai formulir email.
+![Screenshot flutter_firebase_firestore](images/02.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Screenshot flutter_firebase_firestore](images/03.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Setelah memasukkan email, sistem mengkonfirmasi jika pengguna sudah terdaftar.
+![Screenshot flutter_firebase_firestore](images/04.png)
+
+Jika pengguna tidak terdaftar, maka akan pergi melalui formulir pendaftaran.
+![Screenshot flutter_firebase_firestore](images/05.png)
+
+Jika pengguna terdaftar, akan melihat kata sandi sebagai gantinya.
+![Screenshot flutter_firebase_firestore](images/06.png)
+
+Apabila memasukkan password yang salah penanganan error akan terlihat pada halaman ini.
+![Screenshot flutter_firebase_firestore](images/07.png)
+
+Setelah pengguna masuk, Anda akan melihat pengalaman masuk yang menawarkan pengguna kemampuan untuk keluar lagi.
+![Screenshot flutter_firebase_firestore](images/08.png)
+
+### Tulis pesan ke cloud firestore
+![Screenshot flutter_firebase_firestore](images/09.png)
+
+![Screenshot flutter_firebase_firestore](images/10.png)
+
